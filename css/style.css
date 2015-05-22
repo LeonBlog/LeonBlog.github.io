@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #eee;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px Arial, "Helvetica Neue", Helvetica, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -312,7 +312,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 300px;
+  height: 500px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -352,7 +352,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/banner.jpg") center #000;
+  background: url("images/banner1.jpg") center #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -360,11 +360,11 @@ body {
 }
 #header-title {
   text-align: center;
-  height: 40px;
+  height: 60px;
   position: absolute;
   top: 50%;
   left: 0;
-  margin-top: -20px;
+  margin-top: -30px;
 }
 #logo,
 #subtitle {
@@ -374,17 +374,17 @@ body {
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 #logo {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 60px;
+  line-height: 60px;
   letter-spacing: 2px;
 }
 #subtitle {
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 26px;
+  line-height: 26px;
   letter-spacing: 1px;
 }
 #subtitle-wrap {
-  margin-top: 16px;
+  margin-top: 26px;
 }
 #main-nav {
   float: left;
@@ -487,7 +487,7 @@ body {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px Arial, "Helvetica Neue", Helvetica, sans-serif;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -636,7 +636,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 14px;
   margin: 1.6em 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -844,7 +844,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px Arial, "Helvetica Neue", Helvetica, sans-serif;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1203,7 +1203,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #2d2d2d;
   color: #999;
-  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.85em Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
